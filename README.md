@@ -57,7 +57,7 @@ Writing superblocks and filesystem accounting information: done
 
 root@u24srv02:~# mount /dev/vg_root/lv_root /mnt
 ```
-### Копируем все данные с раздела / на /mnt
+### Копируем все данные с раздела / на /mnt
 ```
 root@u24srv02:~#
 root@u24srv02:~# rsync -avxHAX --progress / /mnt/
@@ -334,6 +334,8 @@ file1  file10  file11  file12  file13  file14  file15  file16  file17  file18  f
 root@u24srv02:~#
 ```
 #### Файлы успешно восстановлены с помощью снапшота
+## Домашнее задание выполнено
+
 
 
 
